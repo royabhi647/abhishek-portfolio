@@ -1,23 +1,31 @@
-const logotext = "JOHN";
+import ClipstreamPro from "./assets/images/criptostream.JPG";
+import modishMart from "./assets/images/Modish-mart.jpg";
+import Tmdb from "./assets/images/tmdb.jpg";
+import cameraClip from "./assets/images/camera-clip.jpg";
+import MyRestaurent from "./assets/images/my-restaurent.JPG";
+import LinkedinExtension from "./assets/images/extension-linkedin.jpg";
+
+const logotext = "ABHISHEK";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Abhishek Kumar",
+    description: "I’m Abhishek Kumar Software Engineer _ Full stack devloper,currently working in Whizlabs",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Abhishek Kumar",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I am Software Engineer",
+        second: "I am Frontend Developer",
+        third: "I am Full Stack Developer",
+        fourth: "I love Coding"
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "A software engineer is a professional who applies engineering principles to the design, development, maintenance, testing, and evaluation of software and systems.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "A Full Stack Developer is a versatile professional who possesses expertise in both frontend and backend development. They are proficient in a wide range of technologies and frameworks, enabling them to work on all layers of a software application, from the user interface to the database and everything in between.",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -37,29 +45,74 @@ const worktimeline = [{
 ];
 
 const skills = [{
-        name: "Python",
+        name: "ReactJS",
         value: 90,
     },
     {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
+        name: "NextJS",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
+        name: "Javascript",
         value: 85,
     },
+    {
+        name: "Java",
+        value: 70,
+    },
+    {
+        name: "NodeJS",
+        value: 85,
+    },
+    {
+        name: "ExpressJS",
+        value: 80,
+    },
+    {
+        name: "mongoDB",
+        value: 70,
+    },
+    {
+        name: "MySQL",
+        value: 65,
+    },
+    {
+        name: "SQL",
+        value: 70,
+    },
+    {
+        name: "GitHub",
+        value: 85,
+    },
+    {
+        name: "Jira",
+        value: 55
+    },
+    {
+        name: "AWS",
+        value: 50,
+    },
+    {
+        name: "HTML",
+        value: 85,
+    },
+    {
+        name: "CSS",
+        value: 85,
+    },
+    {
+        name: "NextUI",
+        value: 75,
+    },
+    {
+        name: "MaterialUI",
+        value: 85
+    }
+
 ];
 
 const services = [{
-        title: "UI & UX Design",
+        title: "Full Stack Project",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
     {
@@ -72,72 +125,51 @@ const services = [{
     },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+const dataportfolio = [{ 
+        img: ClipstreamPro,
+        code: "https://github.com/royabhi647/instagram-reels",
+        description: "Clipstream Pro.",
+        link: "https://instagram-reels-alpha.vercel.app/login",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: modishMart,
+        description: "Modish Mart.",
+        code: "https://github.com/royabhi647/MERN-DASHBOARD",
+        link: "https://www.linkedin.com/feed/update/urn:li:activity:7127216277646970880/",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: LinkedinExtension,
+        code: "https://github.com/royabhi647/LinkedIn-extension",
+        description: "Extension LinkedIn.",
+        link: "https://instagram-reels-alpha.vercel.app/login",
+    }, 
+    {
+        img: Tmdb,
+        description: "Movies-Platform",
+        code: "https://github.com/royabhi647/tmdb-clone"
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: cameraClip,
+        description: "Camera Clip",
+        code: "https://github.com/royabhi647/cameraApp",
+        link: "https://royabhi647.github.io/cameraApp/",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: MyRestaurent,
+        description: "My Restaurent",
+        code: "https://github.com/royabhi647/restaurent-website",
+        link: "https://graceful-sprinkles-f60e6f.netlify.app/",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Food App",
+        code: "https://github.com/royabhi647/foodApp-Backend"
     },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
+    YOUR_EMAIL: "royabhi647@gmail.com",
+    YOUR_FONE: "6204624711",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
@@ -147,10 +179,11 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/royabhi647",
+    linkedin: "https://www.linkedin.com/in/abhishek-kumar-70765a177/",
+    leetcode: "https://leetcode.com/royabhi647/",
+    gfg: "https://www.geeksforgeeks.org/user/royabhi647/",
+    hackerrank: "https://www.hackerrank.com/profile/royabhi647"
 };
 export {
     meta,
