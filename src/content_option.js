@@ -2,10 +2,10 @@ import ClipstreamPro from "./assets/images/criptostream.JPG";
 import modishMart from "./assets/images/Modish-mart.jpg";
 import Tmdb from "./assets/images/tmdb.jpg";
 import cameraClip from "./assets/images/camera-clip.jpg";
-import MyRestaurent from "./assets/images/my-restaurent.jpg";
 import LinkedinExtension from "./assets/images/linkedin-extension.jpg";
 import FoodApp from "./assets/images/food-app.jpg";
 import thiefDetector from "./assets/images/thief-detector.webp";
+import Restaurent from "./assets/images/restaurent.jpg";
 
 const logotext = "ABHISHEK";
 const meta = {
@@ -165,7 +165,7 @@ const dataportfolio = [
         link: "https://royabhi647.github.io/cameraApp/",
     },
     {
-        img: MyRestaurent,
+        img: Restaurent,
         description: "My Restaurent",
         code: "https://github.com/royabhi647/restaurent-website",
         link: "https://graceful-sprinkles-f60e6f.netlify.app/",
