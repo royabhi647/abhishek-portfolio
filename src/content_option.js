@@ -5,6 +5,7 @@ import cameraClip from "./assets/images/camera-clip.jpg";
 import MyRestaurent from "./assets/images/my-restaurent.jpg";
 import LinkedinExtension from "./assets/images/linkedin-extension.jpg";
 import FoodApp from "./assets/images/food-app.jpg";
+import thiefDetector from "./assets/images/thief-detector.webp";
 
 const logotext = "ABHISHEK";
 const meta = {
@@ -126,7 +127,8 @@ const services = [{
     },
 ];
 
-const dataportfolio = [{ 
+const dataportfolio = [
+    { 
         img: ClipstreamPro,
         code: "https://github.com/royabhi647/instagram-reels",
         description: "Clipstream Pro.",
@@ -144,6 +146,12 @@ const dataportfolio = [{
         description: "Extension LinkedIn.",
         link: "https://www.linkedin.com/feed/update/urn:li:activity:7127216277646970880/",
     }, 
+    {
+        img: thiefDetector,
+        code: "https://github.com/royabhi647/object-detection",
+        description: "Object Detector",
+        link: "https://object-detection-kappa.vercel.app/"
+    },
     {
         img: Tmdb,
         description: "Movies-Platform",
