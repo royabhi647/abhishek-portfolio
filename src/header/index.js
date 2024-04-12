@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./style.css";
 import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
@@ -7,11 +7,25 @@ import Themetoggle from "../components/themetoggle";
 
 const Headermain = () => {
   const [isActive, setActive] = useState("false");
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
 
   const handleToggle = () => {
     setActive(!isActive);
     document.body.classList.toggle("ovhidden");
   };
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth <= 768);
+    };
+
+    handleResize();
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   return (
     <>
@@ -20,11 +34,22 @@ const Headermain = () => {
           <Link  className="navbar-brand nav_ac" to="/">
             {logotext}
           </Link>
+          <Link  className="menu-link" to="/portfolio">
+            Project
+          </Link>
+          <Link  className="menu-link" to="/about">
+            About
+          </Link>
+          <Link  className="menu-link" to="/contact">
+            Contact
+          </Link>
           <div className="d-flex align-items-center">
           <Themetoggle />
-          <button className="menu__button  nav_ac" onClick={handleToggle}>
-            {!isActive ? <VscClose /> : <VscGrabber />}
-          </button>
+          {isSmallScreen && (
+            <button className="menu__button  nav_ac" onClick={handleToggle}>
+              {!isActive ? <VscClose /> : <VscGrabber />}
+            </button>
+          )}
           
           </div>
         </div>

@@ -29,19 +29,19 @@ const dataabout = {
     aboutme: "A Full Stack Developer is a versatile professional who possesses expertise in both frontend and backend development. They are proficient in a wide range of technologies and frameworks, enabling them to work on all layers of a software application, from the user interface to the database and everything in between.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Full Stack Developer",
+        where: "Coimbatore",
+        date: "Nov 2023 - Present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "React Developer",
+        where: "Hyderabad",
+        date: "Mar 2023 - Aug 2023",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Frontend Developer",
+        where: "Noida",
+        date: "Oct 2022 - Feb 2023",
     },
 ];
 
