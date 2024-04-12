@@ -2,8 +2,9 @@ import ClipstreamPro from "./assets/images/criptostream.JPG";
 import modishMart from "./assets/images/Modish-mart.jpg";
 import Tmdb from "./assets/images/tmdb.jpg";
 import cameraClip from "./assets/images/camera-clip.jpg";
-import MyRestaurent from "./assets/images/my-restaurent.JPG";
-import LinkedinExtension from "./assets/images/extension-linkedin.jpg";
+import MyRestaurent from "./assets/images/my-restaurent.jpg";
+import LinkedinExtension from "./assets/images/linkedin-extension.jpg";
+import FoodApp from "./assets/images/food-app.jpg";
 
 const logotext = "ABHISHEK";
 const meta = {
@@ -135,18 +136,19 @@ const dataportfolio = [{
         img: modishMart,
         description: "Modish Mart.",
         code: "https://github.com/royabhi647/MERN-DASHBOARD",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7127216277646970880/",
+        // link: "https://www.linkedin.com/feed/update/urn:li:activity:7127216277646970880/",
     },
     {
         img: LinkedinExtension,
         code: "https://github.com/royabhi647/LinkedIn-extension",
         description: "Extension LinkedIn.",
-        link: "https://instagram-reels-alpha.vercel.app/login",
+        link: "https://www.linkedin.com/feed/update/urn:li:activity:7127216277646970880/",
     }, 
     {
         img: Tmdb,
         description: "Movies-Platform",
-        code: "https://github.com/royabhi647/tmdb-clone"
+        code: "https://github.com/royabhi647/tmdb-clone",
+        link: "https://www.linkedin.com/feed/update/urn:li:activity:7109376937659154433/"
     },
     {
         img: cameraClip,
@@ -161,6 +163,7 @@ const dataportfolio = [{
         link: "https://graceful-sprinkles-f60e6f.netlify.app/",
     },
     {
+        img: FoodApp,
         description: "Food App",
         code: "https://github.com/royabhi647/foodApp-Backend"
     },
